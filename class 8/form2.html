@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset style="width: 500px;">
+            <legend>Your Details: </legend>
+            <label for="name">Name:</label>
+            <input type="text"  id="name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email"  id="email">
+        </fieldset>
+        <br>
+        <fieldset style="width: 500px;">
+            <legend>Your Review:</legend>
+            <label for="hear">How did you hear about us ?</label>
+            <select  id="hear">
+                <option value="google">Google</option>
+                <option value="whatsapp">Whatsapp</option>
+                <option value="linked_in">Linked In</option>
+            </select>
+            <p >Would you vist Again?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="visit" id="yes">
+            <label for="no">No</label>
+            <input type="radio" name="visit" id="no">
+            <label for="maybe">May be</label>
+            <input type="radio" name="visit" id="maybe">
+            <br><br>
+            <label for="comment">Comments:</label>
+            <br>
+            <textarea  id="comment" rows="5" cols="30"></textarea>
+            <br>
+            <input type="checkbox"  id="update">
+            <label for="update">Sign me up for an email address</label>
+            <br><br>
+            <input type="submit" value="Submit review" id="" onclick="alert('Form Has been submitted!')">
+        </fieldset>
+
+    </form>
+</body>
+</html>
